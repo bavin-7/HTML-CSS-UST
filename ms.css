@@ -1,0 +1,43 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+  
+}
+
+.grid1{
+    background-color: red;
+    text-align: end;
+    align-content: end;
+}
+
+.grid2{
+    background-color: green;
+    text-align: start;
+    align-content: end;
+}
+
+.grid3{
+    background-color: blue;
+    text-align: end;
+    align-content: start;
+}
+
+.grid4{
+    background-color: coral;
+    text-align: start;
+}
+
+.col1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.col2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+p{
+    margin: 0 auto;
+}

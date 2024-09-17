@@ -1,0 +1,69 @@
+.container{
+    min-height: 100vh;
+    width: 100vw;
+    display: grid;
+    background-color: peachpuff;
+    
+  
+}
+
+.grid1{
+    height: 100%;
+    text-align: center;
+    align-content: end;
+   
+    align-items: center;
+    align-content: center;
+}
+
+.grid2{
+    height: 100%;
+    text-align: center;
+   
+    align-items: center;
+    align-content: center;
+}
+
+
+.grid3{
+    height: 100%;
+    text-align: center;
+    align-content: start;
+   
+    align-items: center;
+    align-content: center;
+}
+
+
+.grid4{
+    height: 100%;
+    text-align: center;
+
+    align-items: center;
+    align-content: center;
+}
+
+
+.col1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+
+}
+
+.col2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+img{
+    object-fit: fill;
+    width: 80%;
+    height: 80%;
+    
+}
+
+figcaption{
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
